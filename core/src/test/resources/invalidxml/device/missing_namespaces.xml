@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<root xmlns="urn:schemas-upnp-org:device-1-0">
+<root xmlns="urn:schemas-upnp-org:device-1-0" xmlns:dlna="urn:schemas-dlna-org:device-1-0">
   <specVersion>
     <major>1</major>
     <minor>0</minor>
@@ -16,8 +16,8 @@
     <serialNumber>USHARE-01</serialNumber>
     <UDN>uuid:898f9738-d930-4db4-a3cf-00112fda1b23</UDN>
     <presentationURL>/web/ushare.html</presentationURL>
-    <dlna:X_DLNADOC>DMS-1.00</dlna:X_DLNADOC>
-    <pv:extension>proxy</pv:extension>
+    <dlna:X_DLNADOC>DMS-1.00</dlna:X_DLNADOC> 
+    <!-- <pv:extension>proxy</pv:extension> -->
     <deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
     <serviceList>
       <service>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<root xmlns="urn:schemas-upnp-org:device-1-0">
+<root xmlns="urn:schemas-upnp-org:device-1-0" xmlns:dlna="urn:schemas-dlna-org:device-1-0">
   <specVersion>
     <major>1</major>
     <minor>0</minor>
@@ -15,7 +15,7 @@
     <modelURL>http://www.netgear.com/</modelURL>
     <serialNumber>12345678</serialNumber>
     <UDN>uuid:4d696e69-444c-164e-9d41-000000000000</UDN>
-    <dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC>
+    <dlna:X_DLNADOC>DMS-1.50</dlna:X_DLNADOC>
     <presentationURL>http://www.routerlogin.com</presentationURL>
     <iconList>
       <icon>

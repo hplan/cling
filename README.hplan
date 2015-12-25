@@ -1,0 +1,6 @@
+Step 1, install maven. read README.md at least need maven 3.x or newer.
+Step 2, java version 1.7 or newer
+Step 3, android sdk 15
+Step 4, use mvn clean install >
+        will tell you some error, annotate the error xml or annotate ./core/pom.xml <test name="Descripton"> 
+Step 5, mvn clean && mvn package

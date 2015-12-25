@@ -87,8 +87,11 @@
         <seamless.version>1.1.1</seamless.version>
         <lemma.version>1.1.1</lemma.version>
         <testng.version>6.8.21</testng.version>
-        <android.version>4.1.1.4</android.version>
+
+        <android.version>4.1.1.4</android.version> 
         <android.maven.plugin.version>4.1.1</android.maven.plugin.version>
+        
+        
         <maven.site.plugin.version>3.4</maven.site.plugin.version>
         <jetty.version>8.1.8.v20121106</jetty.version>
         <cdi.api.version>1.2</cdi.api.version>
@@ -154,7 +157,7 @@
                     </configuration>
                 </plugin>
 
-                <!-- Javadoc generation settings -->
+                <!-- Javadoc generation settings 
                 <plugin>
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>2.10.2</version>
@@ -162,7 +165,7 @@
                         <quiet>true</quiet>
                         <additionalparam>-Xdoclint:none</additionalparam>
                     </configuration>
-                </plugin>
+                </plugin>-->
 
                 <!-- Source JARs -->
                 <plugin>

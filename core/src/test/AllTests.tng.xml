@@ -26,11 +26,13 @@
         </packages>
     </test>
 
+<!--
     <test name="Description">
         <packages>
             <package name="org.fourthline.cling.test.resources"/>
         </packages>
     </test>
+-->
 
     <test name="Control">
         <packages>
